@@ -1,0 +1,80 @@
+#home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner {
+	height: 100%;
+	background-image: url("https://rafael.sirv.com/hackthefog/watercolor.png?format=webp&webp.fallback=jpg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#center-htc-title {
+	color: #207AEE;
+	text-align: center;
+	font-size: 5.5vmin;
+	font-weight: bold;
+	line-height: 7.5vmin;
+}
+
+#htc-intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #207AEE;
+	font-size: 7vmin;
+	padding-bottom: .25rem;
+}
+
+#htc-intro > * {
+	padding: 0 .25rem;
+}
+
+.logo-img {
+	max-height: 78px;
+	width: auto;
+	height: auto;
+	margin-bottom: 0;
+	position: unset;
+}
+
+#htc-name {
+	font-size: 7vmin;
+	margin-bottom: 2vmin;
+}
+
+.htc-image {
+	max-height: unset;
+	height: 20vmin;
+}
+
+#banner-button-wrapper {
+	padding-top: 1rem;
+}
+
+#banner-button {
+	position: relative;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 15px 35px;
+}
+
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+footer {
+	background-color: #2073DE;
+	padding: 5px;
+	color: white;
+	text-align: center;
+}
